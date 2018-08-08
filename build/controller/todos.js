@@ -19,7 +19,7 @@ module.exports = {
 		}).then(function (todos) {
 			return res.status(200).send(todos);
 		}).catch(function (err) {
-			return res.status(400).send(er);
+			return res.status(400).send(err);
 		});
 		/*
   return Todo.all().then(todos => res.status(200).send(todos))
